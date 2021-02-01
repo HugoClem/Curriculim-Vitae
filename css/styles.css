@@ -1,0 +1,232 @@
+body {
+  background-color: #f6f5f5;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+    margin-top: 108px;
+}
+
+.Photo{
+    border-radius: 50%;
+    width: 160px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.brain{
+  margin-top: 53px;
+  width: 20%;
+  border-radius: 18%
+  }
+
+h1 {
+  color: #092a35;
+  margin-top: 202px;
+}
+h3 {
+  color: #092a35;
+  margin-top: 172px;
+}
+.contact{
+  margin-bottom: 3%;
+  background-color: #6db193;
+  color: #092a35;
+}
+p {
+  color: #092a35;
+  margin-top: 91px;
+}
+.box2{
+  text-align: left;
+  margin-left: 30%;
+    margin-top: 80px;
+    line-height: 48px;
+
+}
+.email{
+  border-radius: 3%;
+}
+a{
+  text-align;left;
+  color: #184d47;
+}
+
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #092a35;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  width: 438%;
+  margin-left: -42px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f5f5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: -66px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #658525;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.EduBox{
+  margin-top: 8%;
+  margin-left: 31%;
+}
+#Education{
+  margin-left: 4%;
+  margin-top: 14%;
+  position: absolute;
+}
+th{
+  background-color: #658525;
+  width: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: #092a35;
+}
+.title.contact{
+  margin-top: 5%;
+}
+.contactbox{
+  position: absolute;
+  margin-top: -2%;
+  margin-left: 24%;
+}
+
+.email{
+  position: absolute;
+  margin-top: 6px;
+  margin-left: 22%;
+}
+
+.skills{
+  font-family: 'Montserrat', sans-serif;
+  color: #092a35;
+  margin-top: 2%;
+  margin-left: 25%;
+}
+#skills{
+  margin-top: 2%;
+margin-left: -27%;
+}
+
+#Software{
+  background-color: #f6f5f5;
+}
+.EngTitle{
+  margin-top: 7%;
+}
+.DescriptionEng{
+position: fixed;
+margin-left: 23%;
+margin-top: -5%;
+}
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  margin-left: 28%;
+  margin-top: 10%;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #f6f5f5;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #092a35;
+  color: white;
+  transform: rotateY(180deg);
+}
+.brenglish{
+  line-height: 10%;
+}
+
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 100%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
